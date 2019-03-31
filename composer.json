@@ -9,5 +9,10 @@
             "email": "jakhongir.nishanbaev@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-0": {
+            "PackageTest": "src/"
+        }
+    }
 }

@@ -1,5 +1,7 @@
 <?php
 
+namespace PackageTest;
+
 class Path
 {
     private $path;
@@ -15,7 +17,7 @@ class Path
     /**
      * @param mixed $path
      */
-    public function setPath($path)
+    private function setPath($path)
     {
         $this->path = $path;
     }
